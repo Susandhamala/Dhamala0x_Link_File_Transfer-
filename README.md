@@ -37,7 +37,7 @@ Installation
 ------------
 Clone the repository:
 
-    git clone https://github.com/0x4m4/ Dhamala0x_Link_File_Transfer.git
+    https://github.com/Susandhamala/Dhamala0x_Link_File_Transfer
     cd  Dhamala0x_Link_File_Transfer
 
 Install required libraries:
