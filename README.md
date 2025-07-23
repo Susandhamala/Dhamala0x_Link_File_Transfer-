@@ -2,6 +2,8 @@
 **Dhamala0x\_Link\_File\_Transfer - Encrypted File Transfer Tool**
 **By Susan Dhamala (0x4m4)**
 
+<img width="562" height="360" alt="image" src="https://github.com/user-attachments/assets/389ae93f-652c-4fed-b7d3-477aa0ad10c3" />
+
 ---
 
 **Overview**
@@ -74,6 +76,9 @@ pip install tkinter  # Pre-installed in most systems with Python
    * Choose the file
 4. Click **Execute** to encrypt and transmit
 
+   <img width="495" height="539" alt="image" src="https://github.com/user-attachments/assets/47af9e9e-e9de-45df-b144-5fc5c7cd1778" />
+
+
 **To Receive a File:**
 
 1. Run the program:
@@ -84,6 +89,8 @@ pip install tkinter  # Pre-installed in most systems with Python
    * Listening Port (e.g., 12345)
    * Password (must match sender)
 4. Click **Execute** to start listening and decrypting
+
+<img width="526" height="483" alt="image" src="https://github.com/user-attachments/assets/d556af10-df42-4d7e-a06e-25c3dcc1ce53" />
 
 ---
 
@@ -120,6 +127,11 @@ Click: Execute
 ---
 
 **🖼️ Screenshots**
+
+<img width="401" height="233" alt="Screenshot 2025-07-06 004101" src="https://github.com/user-attachments/assets/19a6879e-02d3-4f74-9c5d-b2896433c7c5" />
+
+<img width="695" height="328" alt="Screenshot 2025-07-06 004230" src="https://github.com/user-attachments/assets/b81abce8-b6e5-4599-bdfd-75594668eb00" />
+
 
 
 **⚠️ Error Handling & User Prompts**
