@@ -1,80 +1,91 @@
-Dhamala0x_Link_File_Transfer
-A lightweight and secure peer-to-peer file transfer tool built using Python. It uses strong encryption and a user-friendly graphical interface for simple and safe file sharing between devices over LAN.
+Dhamala0x_Link_File_Transfer-
+Dhamala0x_Link_File_Transfer is a result of that motivation. It’s not just a project to showcase coding skills it’s a practical solution built from a real need for privacy.
 
-Features:
+Dhamala0x_Link_File_Transfer- - Encrypted File Transfer Tool by Susan Dhamala (0x4m4)
+=====================================================================
 
-AES-256 encryption for secure file transmission
+Dhamala0x_Link_File_Transfer is a secure file transfer tool designed by Susan Dhamala (0x4m4). This tool ensures that your files are transferred safely and confidentially over the network using AES-256 encryption and a futuristic, user-friendly interface.
 
-Password-based key derivation using PBKDF2
+Features
+AES-256 Encryption: Secures files using industry-standard advanced encryption.
+PBKDF2 Key Derivation: Safeguards passwords with salt and 100,000 iterations.
+Futuristic GUI: Styled with a dark theme and clean layout using Tkinter.
+End-to-End File Protection: Files are encrypted before leaving your device.
+File Integrity: Maintains original file name and structure.
+Why Dhamala0x_Link_File_Transfer?
+Unlike many public file sharing platforms, Dhamala0x_Link_File_Transfer ensures full privacy and integrity of data transfer. Encryption happens locally, so no one—not even your network—can peek inside the contents. This makes it ideal for ethical hackers, cybersecurity professionals, and privacy-focused users.
 
-GUI for both sending and receiving files using Tkinter
+Works seamlessly on:
 
-Peer-to-peer, no need for third-party servers
+Windows
+Linux
+macOS
+Android (via compatible Python environments)
+Requirements
+Python 3.x installed along with the following libraries:
 
-Cross-platform: Works on both Windows and Linux
+tkinter
+socket (built-in)
+cryptography
+Installation
+Clone the repository:
 
-Requirements:
+https://github.com/Susandhamala/Dhamala0x_Link_File_Transfer
+git clone https://github.com/0x4m4/ Dhamala0x_Link_File_Transfer.git
+cd  Dhamala0x_Link_File_Transfer
+Install required libraries:
 
-Python version 3.6 or higher
-
-Libraries: tkinter, socket, cryptography
-
-Use pip to install cryptography:
 pip install cryptography
+pip install tkinter
+Usage
+Run the GUI:
 
-How to Use:
+python  Dhamala0x_Link_File_Transfer.py
+Sending a File:
 
-Sender Side:
+Launch Dhamala0x_Link_File_Transfer.
+Select "Send" mode.
+Enter the receiver's host IP and port.
+Choose a file to send.
+Enter a secure password.
+Click "Execute" to encrypt and transmit the file.
+Receiving a File:
 
-Run the application by executing: python main.py
+Launch Dhamala0x_Link_File_Transfer.
+Select "Receive" mode.
+Enter the port to listen on.
+Enter the password (must match sender's).
+Click "Execute" to begin receiving and decrypting.
+Example Usage
+Send:
 
-Click "Send File"
+Mode: Send
+Host: 192.168.1.100
+Port: 12345
+File: any_file.txt
+Password: strongpassword
+Execute
+Receive:
 
-Enter the receiver’s IP address and port number
+Mode: Receive
+Port: 12345
+Password: strongpassword
+Execute
+Security
+Dhamala0x_Link_File_Transfer incorporates advanced cryptographic standards:
 
-Enter a secure password
+AES-256: Military-grade file encryption
+PBKDF2 with HMAC-SHA256: Hardened key generation
+Random IV for every session: Prevents replay and pattern attacks
+Screenshots
+(Add screenshots here if applicable)
 
-Choose the file to send
+Error Handling & Prompts
+The application will provide real-time guidance:
 
-Click “Send File”
-
-Receiver Side:
-
-Run the application on the receiving machine
-
-Click "Receive File"
-
-Enter the host (0.0.0.0 recommended), port number, and the same password
-
-Click “Start Receiving”
-
-The received file will be saved with the original name
-
-Testing Instructions:
-
-To test the encryption module, run: python test_crypto.py
-
-Tests include:
-
-Key length check
-
-Padding/unpadding verification
-
-Encryption and decryption accuracy
-
-Ensuring random encryption IVs for each session
-
-Project Files:
-
-main.py : Main application file
-
-test_crypto.py : Contains unit tests
-
-README.txt : Project documentation
-
-Author:
-Susan Dhamala (0xxProtocool)
-Student ID: 240170 / 15381093
-Softwarica College of IT & E-Commerce
-Coventry University
-Module: ST5068CEM – Programming and Algorithm
+Missing Fields: Prompts you to fill host/port/password.
+Invalid Inputs: Displays errors for bad port numbers or empty file paths.
+Transfer Status: Informs you whether a file is sent/received successfully.
+Decryption Failures: Alerts if the password is incorrect or data is corrupted.
+Disclaimer
+While Dhamala0x_Link_File_Transfer uses strong encryption techniques, your overall security depends on using a strong password and keeping it secret. Share passwords securely and avoid common or reused credentials.
